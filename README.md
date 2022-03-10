@@ -8,3 +8,5 @@ config checkout
 ```
 
 If errors, remove conflicting files
+
+Stolen from <https://www.atlassian.com/git/tutorials/dotfiles> <https://news.ycombinator.com/item?id=11070797>
