@@ -48,7 +48,8 @@ endif
 " Insert spaces instead on tabs on c files
 	set expandtab
   set autoindent
-	set tabstop=2 softtabstop=0 shiftwidth=2 smarttab
+  set sw=2
+	set tabstop=2 softtabstop=2 shiftwidth=2 smarttab
 	autocmd FileType c set expandtab
 	nmap <leader>t :set expandtab!<CR>
 

@@ -1,4 +1,5 @@
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/bin"
 export PATH="$PATH:/opt/bin"
 
 # enable color support of ls and also add handy aliases
@@ -20,6 +21,7 @@ alias l='ls -CF'
 
 export EDITOR='vim'
 export VISUAL='vim'
+export BROWSER='firefox' # Needed for mutt
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -71,3 +73,6 @@ alias yeet='terraform apply'
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
