@@ -1,7 +1,7 @@
 " Providers
 " ==========================================================
 
-let g:python3_host_prog='$HOME/.pyenv/versions/neovim3/bin/python'
+let g:python3_host_prog='/usr/bin/python3'
 
 " Appearance
 " ==========================================================
@@ -13,7 +13,7 @@ let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="medium"
 let g:palenight_terminal_italics=1
 
-colorscheme gruvbox
+colorscheme slate
 if (has("termguicolors"))
     set termguicolors
 endif
@@ -55,6 +55,8 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+let g:pyindent_open_paren = 'shiftwidth()'
 
 " " List mode
 set listchars=tab:¦\ ,trail:•,extends:›,precedes:‹,nbsp:␣

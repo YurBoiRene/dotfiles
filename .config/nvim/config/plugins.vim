@@ -94,6 +94,10 @@ let g:ale_fixers['vue']=['prettier', 'eslint']
 " let g:ale_fixers['rust']=['rustfmt']
 " let g:ale_c_parse_compile_commands=1
 
+let g:ale_linters={
+\ 'python': ['pylint'],
+\}
+
 " matchup
 " ==========================================================
 
